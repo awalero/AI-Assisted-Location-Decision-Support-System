@@ -1,4 +1,5 @@
-# AI-Assisted Location Decision Support System (ALSDS) — Instructor Baseline
+# AI-Assisted Location Decision Support System (ALSDS)
+## Instructor Baseline Version
 
 This repository provides the **baseline application and infrastructure** for the ALSDS capstone project.
 
