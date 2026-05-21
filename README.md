@@ -1,6 +1,8 @@
 # AI-Assisted Location Decision Support System (ALSDS)
 ## Instructor Baseline Version
 
+[Live App](https://alsds-instructor-app-hnh9decnczb6ffeu.eastus-01.azurewebsites.net/)
+
 This repository provides the **baseline application and infrastructure** for the ALSDS capstone project.
 
 It includes:
@@ -33,20 +35,20 @@ Each team must:
 Each team repository must be named:
 
 
-alsds-teamX-app
+`alsds-teamX-app`
 
 
 Example:
 
 
-alsds-team3-app
+`alsds-team3-app`
 
 
 
 ## Baseline Version
 
 
-Stable infrastructure release: v1-baseline
+Stable infrastructure release: `v1-baseline`
 
 
 All teams must start from this version before making any changes.
@@ -57,12 +59,12 @@ All teams must start from this version before making any changes.
 
 The following files must remain unchanged:
 
-startup.sh
-requirements.txt (do not remove any current requirements, you can add more items if required.)
-app.py (initially, unless explicitly instructed)
+`startup.sh`
+`requirements.txt` (do not remove any current requirements, you can add more items if required.)
+`app.py` (initially, unless explicitly instructed)
 deployment configuration (GitHub Actions / Azure settings)
 environment variable naming
-API route structure (/api/run_huff, /api/ask)
+API route structure (`/api/run_huff`, `/api/ask`)
 
 
 These are required for:
@@ -72,7 +74,7 @@ These are required for:
 - instructor testing
 
 
-## What Teams ARE Expected to Modify
+## What Teams ARE Expected to Modify/Create
 
 Teams should focus on:
 
@@ -103,7 +105,7 @@ You are free to completely redesign the internal logic.
 
 The app uses:
 
-static/data/worcester_cbgs_map.geojson
+`static/data/worcester_cbgs_map.geojson`
 
 Ensure this file exists and is not removed.
 
